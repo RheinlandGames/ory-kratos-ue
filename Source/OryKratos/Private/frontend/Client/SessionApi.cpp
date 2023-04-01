@@ -1,8 +1,8 @@
-﻿#include "v0alpha2/Client/SessionApi.h"
+﻿#include "frontend/Client/SessionApi.h"
 
 #include "JsonObjectConverter.h"
 #include "Interfaces/IHttpResponse.h"
-#include "v0alpha2/Model/KratosSession.h"
+#include "frontend/Model/KratosSession.h"
 
 void USessionApi::Initialize(const FString ConfigBaseUrl, const FString ConfigSessionToken)
 {
